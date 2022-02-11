@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace building_a_house
 {
-    interface IPart
+   public interface IPart
     {
         string Name { get; }
 
