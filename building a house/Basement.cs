@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace building_a_house
 {
-    interface IPart
+    class Basement : IPart
     {
-        string Name { get; }
+        public string Name { get; } = "Basement";
 
-        public virtual string ToString()
+        public override string ToString()
         {
-            return $"";
+            return base.ToString() + $"{Name}";
         }
-
-
     }
 }

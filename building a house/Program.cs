@@ -32,16 +32,7 @@ namespace building_a_house
     {
         static void Main(string[] args)
         {
-            IWorker[] a =
-            {
-               new  TeamLeader ("Бригадир"),
-               new  Walker ("строитель")
-            };
-
-            foreach (IWorker item in a)
-            {
-                Console.WriteLine(item.ToString());  // полиморфизм
-            }
+          
         }
     }
 }

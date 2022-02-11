@@ -6,15 +6,12 @@ using System.Threading.Tasks;
 
 namespace building_a_house
 {
-    interface IPart
+    class Window :IPart
     {
-        string Name { get; }
-
-        public virtual string ToString()
+        public string Name { get; } = "Window";
+        public override string ToString()
         {
-            return $"";
+            return base.ToString() + $"{Name}";
         }
-
-
     }
 }

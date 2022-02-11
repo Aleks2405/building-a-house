@@ -8,9 +8,6 @@ namespace building_a_house
 {
     public interface IWorker  
     {
-        virtual string ToString()
-        {
-            return $"";
-        }
+       
     }
 }
