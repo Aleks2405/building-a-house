@@ -8,14 +8,14 @@ namespace building_a_house
 {
     class Worker : IWorker
     {
-        public void Work(IPart part);
+        public string Worke(IPart part) {
+            return part.Name;
+        }
 
         public int quant { get; set; }
 
-        public override string ToString()
-        {
-            return base.ToString() + $"{}";
-        }
+       
+        
 
     }
 }

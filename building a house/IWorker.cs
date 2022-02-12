@@ -8,12 +8,15 @@ namespace building_a_house
 {
     public interface IWorker  
     {
-      public void Work (IPart part);
+     public  string Worke (IPart part)
+        {
+            return part.Name;
+        }
 
-        public virtual string ToString ()
+        public virtual string ToString()
         {
             return $"";
         }
 
     }
-}
+    }
