@@ -13,11 +13,9 @@ namespace building_a_house
 
         public Team(int value)
         {
-            IPart[] teamLeader =
-            {
-            new Basement(),
-            new Window()
-        };
+            var asaa = new Basement();
+        
+            Console.WriteLine(asaa.ToString());
         }
         
        

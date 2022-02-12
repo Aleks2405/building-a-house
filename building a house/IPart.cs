@@ -12,7 +12,7 @@ namespace building_a_house
 
         public virtual string ToString()
         {
-            return $"";
+            return $"строим 2 = ";
         }
 
 
