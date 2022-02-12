@@ -32,7 +32,9 @@ namespace building_a_house
     {
         static void Main(string[] args)
         {
-            Team team = new Team(5);
+            Team team = new Team();
+            
+
 
            
         }

@@ -9,12 +9,9 @@ namespace building_a_house
     class Worker : IWorker
     {
         public string Worke(IPart part) {
-            return part.Name;
+            return $"{part.Name}, проверяю схолится ли по плану";
         }
 
-        public int quant { get; set; }
-
-       
         
 
     }

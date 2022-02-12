@@ -6,18 +6,25 @@ using System.Threading.Tasks;
 
 namespace building_a_house
 {
-    class Team    // бригада строителей
+    class Team    
     {
         Worker Work = new Worker();
+        
         TeamLeader teamleader = new TeamLeader();
         
-        public Team(int value)
+        public Team()
         {
             IPart[] asaa = {
                 new Basement(),
                 new Walls(),
+               new Walls(),
+               new Walls(),
+               new Walls(),
+               new Door(),
                new Window(),
-                new Door(),
+               new Window(),
+               new Window(),
+               new Window(),
                 new Part()
 
             };
@@ -26,10 +33,22 @@ namespace building_a_house
             {
 
                 Console.WriteLine(asa.ToString());
+
             }
+
+                Console.WriteLine(Work.Worke(asaa[^1]));
+                Console.WriteLine(teamleader.Worke(asaa[^1]));
+            
+
+           
+
+                
+            
+
         }
         
-       
-      
+
+
+
     }
 }
