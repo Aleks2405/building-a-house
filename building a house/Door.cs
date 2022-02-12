@@ -8,11 +8,11 @@ namespace building_a_house
 {
     class Door : IPart
     {
-        public string Name { get; } = " DOOR";
+        public string Name { get; } = " Door";
 
         public override string ToString()
         {
-            return base.ToString() + $"{ Name}";
+            return  $"{ Name}";
         }
     }
 }

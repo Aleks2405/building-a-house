@@ -8,14 +8,25 @@ namespace building_a_house
 {
     class Team    // бригада строителей
     {
-        Worker Worke = new Worker();
+        Worker Work = new Worker();
         TeamLeader teamleader = new TeamLeader();
-
+        
         public Team(int value)
         {
-            var asaa = new Basement();
-        
-            Console.WriteLine(asaa.ToString());
+            IPart[] asaa = {
+                new Basement(),
+                new Walls(),
+               new Window(),
+                new Door(),
+                new Part()
+
+            };
+
+            foreach (IPart asa in asaa)
+            {
+
+                Console.WriteLine(asa.ToString());
+            }
         }
         
        

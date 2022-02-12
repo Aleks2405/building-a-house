@@ -34,7 +34,7 @@ namespace building_a_house
         {
             Team team = new Team(5);
 
-            Console.WriteLine("bez oshibok");
+           
         }
     }
 }

@@ -12,7 +12,7 @@ namespace building_a_house
 
         public override string ToString()
         {
-            return base.ToString() + $"{Name}";
+            return $"{Name}";
         }
     }
 }
