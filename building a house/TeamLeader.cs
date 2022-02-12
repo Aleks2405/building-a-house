@@ -13,15 +13,6 @@ namespace building_a_house
         {
             return part.Name + $" пишу отчет по проделанной работе";
         }
-        //public List<IPart> parts = new List<IPart>();
-
-
-        //public override string ToString() //печатает результат работы строителей и
-        //                                  фиксирует результаты в списке
-        //{
-        //    part.Print_Res();
-        //    return $" {parts.Remove(part)}";
-        //}
-    }
+       
     
 }
