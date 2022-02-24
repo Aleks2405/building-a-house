@@ -11,8 +11,8 @@ namespace building_a_house
     {
         public string Worke(IPart part)
         {
-            return part.Name + $" пишу отчет по проделанной работе";
+            return $"{ part.Name} пишу отчет по проделанной работе";
         }
-       
+    }
     
 }
